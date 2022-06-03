@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.clientes.ClientesFragment">
+
+    <TextView
+        android:id="@+id/tv_titulo_clientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22sp"
+        android:text="Clientes"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_paragrafo_clientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_clientes"
+        android:layout_margin="20dp"
+        android:text="Em mais de 15 anos de existência a ATM acumula experiência
+        em serviços de consultoria para empresas nacionais e multinacionais de diverso portes, tendo
+atendido mais de 1000 empresas desde a sua abertura"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_empresa_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_arrow_forward"
+        android:text="Cielo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/tv_empresa_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_paragrafo_clientes" />
+
+    <TextView
+        android:id="@+id/tv_empresa_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="121dp"
+        android:drawableLeft="@drawable/ic_arrow_forward"
+        android:text="Braskem"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv_empresa_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_empresa_1" />
+
+    <TextView
+        android:id="@+id/tv_empresa_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="265dp"
+        android:drawableLeft="@drawable/ic_arrow_forward"
+        android:text="Gerdau"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_empresa_1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_paragrafo_clientes" />
+
+    <TextView
+        android:id="@+id/tv_empresa_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="232dp"
+        android:drawableLeft="@drawable/ic_arrow_forward"
+        android:text="Embraer"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_empresa_2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_empresa_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

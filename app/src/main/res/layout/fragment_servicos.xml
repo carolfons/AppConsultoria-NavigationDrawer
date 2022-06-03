@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.servicos.ServicosFragment">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Gestão de qualidade"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_paragrafo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Lucas ipsum dolor sit amet padmé chewbacca jinn antilles yavin ben moff baba padmé leia. Dooku darth calrissian dantooine moff. Kashyyyk qui-gon vader darth lando ben. Organa calrissian thrawn solo kashyyyk lars yavin. Gonk naboo skywalker biggs. Jango maul ewok jabba. "/>
+    <TextView
+        android:id="@+id/tv_paragrafo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_paragrafo"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Lucas ipsum dolor sit amet padmé chewbacca jinn antilles yavin ben moff baba padmé leia. Dooku darth calrissian dantooine moff.
+        Kashyyyk qui-gon vader darth lando ben. Organa calrissian thrawn solo kashyyyk lars yavin. Gonk naboo skywalker biggs. Jango maul ewok jabba. "/>
+
+    <TextView
+        android:id="@+id/tv_titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicadores de Desempenho"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_paragrafo2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_paragrafo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo2"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Lucas ipsum dolor sit amet padmé chewbacca jinn antilles yavin ben moff baba padmé leia. Dooku darth calrissian dantooine moff.
+        Kashyyyk qui-gon vader darth lando ben. Organa calrissian thrawn solo kashyyyk lars yavin. Gonk naboo skywalker biggs.
+         Jango maul ewok jabba. "/>
+    <TextView
+        android:id="@+id/tv_paragrafo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_paragrafo3"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Lucas ipsum dolor sit amet padmé chewbacca jinn antilles yavin ben moff baba padmé leia. Dooku darth calrissian dantooine moff.
+        Kashyyyk qui-gon vader darth lando ben. Organa calrissian thrawn solo kashyyyk lars yavin. Gonk naboo skywalker biggs.
+         Jango maul ewok jabba. "/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
